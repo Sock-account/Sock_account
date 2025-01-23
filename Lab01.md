@@ -9,7 +9,8 @@
     
     Major: Computer Science
 
-    Projects: Learning Python, 
+    Projects: Learning Python, Making a text adventure  
+
 1. [Sock_account] https://github.com/Sock_account
 
 ## Part 2 - Research
@@ -18,14 +19,14 @@
 | ---     | ---         | ---    |
 | help    | man         |It provides online information about available commands and the shell environment    |
 | Get-Location | pwd    |Gets an object that represents the current directory|
-| Get-ChildItem | ls    |Gets the items in one or more specified locations        |
-| mkdir   | mkdir       |allows user to create new directories        |
+| Get-ChildItem | ls    |Gets the items in one or more specified locations|
+| mkdir   | mkdir       |allows user to create new directories|
 | Set-Location | cd     |allows you to specify your current directory location|
-| New-Item | touch      |        |
-| Move-Item | mv        |        |
-| Copy-Item | cp        |        |
-| Remove-Item | rm      |        |
-| notepad.exe | vim     |        |
+| New-Item | touch      |Creates a new item and sets it's value|
+| Move-Item | mv        |moves an item, including it's properties contents, and child items from one location to another location|
+| Copy-Item | cp        |copies an item from one location to another location in the same namespace|
+| Remove-Item | rm      |deletes one or more items|
+| notepad.exe | vim     |opens notepad application|
 
 ## Part 3 - Command Line Navigation
 
@@ -38,9 +39,9 @@ My Command Line Shell is:
 
 ### Navigating My OS on the Command Line
 
-1. Create a directory named `DirA`:
-2. Create a directory named `Dir B`:
-3. Go into `DirA`:
+1. Create a directory named `DirA`: mkdir DirA
+2. Create a directory named `Dir B`: mkdir Dir B
+3. Go into `DirA`:cd DirA
 4. Go into `Dir B` from `DirA`:
 5. Return to your user's home directory:
 6. Create a file named `test.txt`:

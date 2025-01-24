@@ -10,6 +10,8 @@
     Major: Computer Science
 
     Projects: Learning Python, Making a text adventure  
+    I'm learning python mostly because java is a pain in the ass
+    The text adventure is going to be an rpg about life
 
 1. [Sock_account] https://github.com/Sock_account
 
@@ -52,9 +54,11 @@ Hello World
 ```
 9. Make a copy of `test.txt` named `copy.txt` in `DirA`: cp test.txt copy.txt
 10. View the contents of `DirA`: ls DirA
-11. Make a copy of `test.txt` in `Dir B` named `fodder.txt`:
-12. Delete / remove both `fodder.txt` AND `Dir B`:
+11. Make a copy of `test.txt` in `Dir B` named `fodder.txt`:cp test.txt /home/brodey/'Dir B'
+cd 'Dir B' mv test.txt fodder.txt 
+12. Delete / remove both `fodder.txt` AND `Dir B`: rm -r 'Dir B'
 
 ## Citations
 
 To add citations, provide the cite and a summary of what it assisted you with.  If generative AI was used, include which generative AI system was used and what prompt(s) you fed it.
+I used IMB.com to find out what the commands did

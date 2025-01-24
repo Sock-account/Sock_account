@@ -40,18 +40,18 @@ My Command Line Shell is:
 ### Navigating My OS on the Command Line
 
 1. Create a directory named `DirA`: mkdir DirA
-2. Create a directory named `Dir B`: mkdir Dir B
+2. Create a directory named `Dir B`: mkdir 'Dir B'
 3. Go into `DirA`:cd DirA
-4. Go into `Dir B` from `DirA`:
-5. Return to your user's home directory:
-6. Create a file named `test.txt`:
-7. Move the file named `test.txt` into `DirA`:
+4. Go into `Dir B` from `DirA`: cd /home/brodey/'Dir B'
+5. Return to your user's home directory: cd ..
+6. Create a file named `test.txt`: touch 'test.txt'
+7. Move the file named `test.txt` into `DirA`:mv test.txt DirA
 8. Contents of `test.txt`:
 ```
-Put your words here
+Hello Worldq
 ```
-9. Make a copy of `test.txt` named `copy.txt` in `DirA`:
-10. View the contents of `DirA`: 
+9. Make a copy of `test.txt` named `copy.txt` in `DirA`: cp test.txt copy.txt
+10. View the contents of `DirA`: ls DirA
 11. Make a copy of `test.txt` in `Dir B` named `fodder.txt`:
 12. Delete / remove both `fodder.txt` AND `Dir B`:
 

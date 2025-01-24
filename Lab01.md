@@ -48,7 +48,7 @@ My Command Line Shell is:
 7. Move the file named `test.txt` into `DirA`:mv test.txt DirA
 8. Contents of `test.txt`:
 ```
-Hello Worldq
+Hello World
 ```
 9. Make a copy of `test.txt` named `copy.txt` in `DirA`: cp test.txt copy.txt
 10. View the contents of `DirA`: ls DirA

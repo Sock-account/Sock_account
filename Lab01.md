@@ -5,8 +5,6 @@
 
 
 
-1. 
-
 ## Part 1 - Research
 
 | Windows | Linux / Mac | Action |
